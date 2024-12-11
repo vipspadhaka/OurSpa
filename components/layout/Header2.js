@@ -36,7 +36,7 @@ export default function Header2({
             </div>
 
             <div className="outer-box ">
-              <button className="ui-btn callbtn d-none-mobile ">
+              <button className="ui-btn callbtn d-none-mobile  ">
                 <a href="tel:+8801891450300" className="ui-btn callbtn">
                   <i className="fa-thin fa-phone"></i>
                   <span className="number  ">+8801891450300</span>

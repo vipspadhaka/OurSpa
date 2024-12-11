@@ -48,7 +48,7 @@ const About6 = () => {
                       your physical and mental well-being.
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="row ">
                     <div className="list-box col-sm-4">
                       <div className="inner">
                         <figure className="thumb">
