@@ -35,7 +35,7 @@ export default function Header2({
               </div>
             </div>
 
-            <div className="outer-box">
+            <div className="outer-box number-hide-mobile">
               <button className="ui-btn callbtn">
                 <a href="tel:+8801891450300" className="ui-btn callbtn">
                   <i className="fa-thin fa-phone"></i>
