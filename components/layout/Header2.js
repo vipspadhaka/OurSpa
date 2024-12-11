@@ -35,16 +35,14 @@ export default function Header2({
               </div>
             </div>
 
-            <div className="outer-box number-hide-mobile">
-              <button className="ui-btn callbtn">
+            <div className="outer-box ">
+              <button className="ui-btn callbtn d-none-mobile ">
                 <a href="tel:+8801891450300" className="ui-btn callbtn">
                   <i className="fa-thin fa-phone"></i>
-                  <span className="number">+8801891450300</span>
+                  <span className="number  ">+8801891450300</span>
                 </a>
               </button>
-
               <div className="divider"></div>
-
               <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
                 <span className="icon fa-thin fa-bars-staggered fa-rotate-180"></span>
               </div>

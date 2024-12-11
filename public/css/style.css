@@ -775,9 +775,10 @@ Scroll To Top style
   .list-style-two.two-column li {
     width: 100%;
   }
-  .number-hide-mobile{
-    display: none;
+  .d-none-mobile{
+    display: none !important;
   }
+
 }
 
 /*Social Icon One*/
