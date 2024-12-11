@@ -14,7 +14,10 @@ const PageHead = ({ headTitle }) => {
           content="Discover Dhaka's premier destination for luxury spa and wellness. Indulge in exclusive treatments, relax in a serene atmosphere, and rejuvenate your mind and body with our professional services."
         />
         {/* Open Graph Meta Tags for Facebook */}
-        <meta property="og:title" content="About Us" />
+        <meta
+          property="og:title"
+          content="Vip Spa Dhaka - Feel Premium and Luxury "
+        />
         <meta
           property="og:description"
           content="Discover Dhaka's premier destination for luxury spa and wellness. Indulge in exclusive treatments, relax in a serene atmosphere, and rejuvenate your mind and body with our professional services."
