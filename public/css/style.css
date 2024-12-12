@@ -3617,6 +3617,19 @@ Main Header
   font-size: 39px;
   text-align: center;
 }
+.navbar-menu {
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-menu.open {
+  display: block;
+}
+
+.navbar-toggler {
+  cursor: pointer;
+}
+
 .header-style-two
   .header-lower
   .main-box
