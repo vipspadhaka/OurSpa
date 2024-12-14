@@ -352,7 +352,7 @@ section > .container-fluid {
   outline: 0;
   background-color: #f4f5f8;
   border: 1px solid #f4f5f8;
-  color: #fff;
+  color: var(--theme-color2);
   font-size: 0.9rem;
   width: 100%;
 }
@@ -1878,6 +1878,12 @@ Scroll To Top style
 }
 .btn-style-one.hover-dark:before {
   background-color: var(--theme-color-dark);
+}
+
+@media only screen and (max-width: 768px) {
+  .btn-style-one {
+    padding: 20px 45px !important;
+  }
 }
 
 /*Btn Style Two*/
