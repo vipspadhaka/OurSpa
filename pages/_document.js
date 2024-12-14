@@ -7,6 +7,15 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <script
+          type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+        ></script>
+        {`
+            (function(){
+                emailjs.init("KA-ttVx2YeJhBmdAs");
+            })();
+          `}
       </body>
     </Html>
   );

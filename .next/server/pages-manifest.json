@@ -3,9 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/page-about": "pages/page-about.js",
-  "/page-services": "pages/page-services.js",
-  "/page-pricing": "pages/page-pricing.js",
-  "/news-grid": "pages/news-grid.js",
   "/page-contact": "pages/page-contact.js"
 }

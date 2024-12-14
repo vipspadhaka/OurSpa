@@ -1,38 +1,32 @@
 import Link from "next/link";
-const handleSubmit = async (e) => {
-  e.preventDefault();
-
-  const formData = new FormData(e.target);
-  const data = {
-    name: formData.get("form_name"),
-    email: formData.get("form_email"),
-    subject: formData.get("form_subject"),
-    phone: formData.get("form_phone"),
-    message: formData.get("form_message"),
-  };
-
-  try {
-    const res = await fetch("/api/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    });
-
-    const result = await res.json();
-    if (res.ok) {
-      alert("Message sent successfully!");
-    } else {
-      alert("Error sending message: " + result.message);
-    }
-  } catch (error) {
-    console.error("Error:", error);
-    alert("Error sending message");
-  }
-};
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_44wdx1u", // Replace with your EmailJS Service ID
+        "template_srx4608", // Replace with your EmailJS Template ID
+        form.current, // Pass the form reference
+        "KA-ttVx2YeJhBmdAs" // Replace with your EmailJS Public Key
+      )
+      .then(
+        (result) => {
+          console.log("Email sent successfully!", result.text);
+          alert("Your message has been sent!");
+        },
+        (error) => {
+          console.error("Failed to send email:", error.text);
+          alert("There was an error sending your message.");
+        }
+      );
+  };
+
   return (
     <>
       <section className="contact-details">
@@ -45,9 +39,10 @@ const Contact = () => {
               </div>
               {/* Contact Form */}
               <form
+                ref={form}
+                onSubmit={sendEmail}
                 id="contact_form"
                 name="contact_form"
-                onSubmit={handleSubmit}
                 method="post"
               >
                 <div className="row">
@@ -111,6 +106,7 @@ const Contact = () => {
                   />
                   <button
                     type="submit"
+                    value="Send"
                     className="theme-btn btn-style-one me-2"
                     data-loading-text="Please wait..."
                   >
@@ -129,9 +125,8 @@ const Contact = () => {
                   <span className="sub-title">Need any help?</span>
                   <h2>Get in touch with us</h2>
                   <div className="text">
-                    Lorem ipsum is simply free text available dolor sit amet,
-                    consectetur notted adipisicing elit sed do eiusmod tempor
-                    incididunt simply free labore dolore magna.
+                    We’re here to help! Reach out with any questions or support
+                    needs, and our team will be happy to assist you.
                   </div>
                 </div>
                 <ul className="list-unstyled contact-details__info">
