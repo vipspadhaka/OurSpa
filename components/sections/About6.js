@@ -49,7 +49,7 @@ const About6 = () => {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="list-box col-12 col-sm-4">
+                    <div className="list-box col-4 ">
                       <div className="inner">
                         <figure className="thumb">
                           <img src="images/resource/about2-4.png" alt="Image" />
@@ -58,7 +58,7 @@ const About6 = () => {
                       </div>
                     </div>
 
-                    <div className="list-box col-12 col-sm-4">
+                    <div className="list-box  col-4">
                       <div className="inner">
                         <figure className="thumb">
                           <img src="images/resource/about2-5.png" alt="Image" />
@@ -67,7 +67,7 @@ const About6 = () => {
                       </div>
                     </div>
 
-                    <div className="list-box col-12 col-sm-4">
+                    <div className="list-box col-4">
                       <div className="inner">
                         <figure className="thumb">
                           <img src="images/resource/about2-6.png" alt="Image" />
