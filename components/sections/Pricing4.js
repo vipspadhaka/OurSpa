@@ -24,16 +24,16 @@ const Pricing4 = () => {
                         <Link href="tel:+8801891450300">Dry Massage</Link>
                       </h4>
                       <div className="text">
-                        60 Minutes Session Package 5000 Tk
+                        60 Minutes Session Package 6000 Tk
                       </div>
                       <div className="text">
-                        90 Minutes Session Package 6000 Tk
+                        90 Minutes Session Package 9000 Tk
                       </div>
                       <div className="text">
-                        120 Minutes Session Package 8000 Tk
+                        120 Minutes Session Package 11000 Tk
                       </div>
                     </div>
-                    <span className="price">5000 TK</span>
+                    <span className="price">6000 TK</span>
                   </div>
                 </div>
               </div>
@@ -45,16 +45,16 @@ const Pricing4 = () => {
                         <Link href="page-pricing">Four Hand Massage</Link>
                       </h4>
                       <div className="text">
-                        60 Minutes Session Package 10500 Tk
+                        60 Minutes Session Package 14500 Tk
                       </div>
                       <div className="text">
-                        90 Minutes Session Package 14500 Tk
+                        90 Minutes Session Package 18500 Tk
                       </div>
                       <div className="text">
-                        120 Minutes Session Package 20500Tk
+                        120 Minutes Session Package 25500Tk
                       </div>
                     </div>
-                    <span className="price">10500 Tk</span>
+                    <span className="price">14500 Tk</span>
                   </div>
                 </div>
               </div>
@@ -75,7 +75,7 @@ const Pricing4 = () => {
                         120 Minutes Session Package 8000 Tk
                       </div>
                     </div>
-                    <span className="price">5000Tk</span>
+                    <span className="price">5000 Tk</span>
                   </div>
                 </div>
               </div>
@@ -108,16 +108,16 @@ const Pricing4 = () => {
                         <Link href="page-pricing">Aroma Oil Massage</Link>
                       </h4>
                       <div className="text">
-                        60 Minutes Session Package 4500 Tk
+                        60 Minutes Session Package 6500 Tk
                       </div>
                       <div className="text">
                         90 Minutes Session Package 5500 Tk
                       </div>
                       <div className="text">
-                        120 Minutes Session Package 8500 Tk
+                        120 Minutes Session Package 9500 Tk
                       </div>
                     </div>
-                    <span className="price">4500Tk</span>
+                    <span className="price">6500Tk</span>
                   </div>
                 </div>
               </div>
@@ -140,7 +140,7 @@ const Pricing4 = () => {
                         120 Minutes Session Package 13500 Tk
                       </div>
                     </div>
-                    <span className="price">7500Tk</span>
+                    <span className="price">7500 Tk</span>
                   </div>
                 </div>
               </div>
@@ -161,7 +161,7 @@ const Pricing4 = () => {
                         120 Minutes Session Package 6500 Tk
                       </div>
                     </div>
-                    <span className="price">3500Tk</span>
+                    <span className="price">3500 Tk</span>
                   </div>
                 </div>
               </div>
@@ -175,16 +175,16 @@ const Pricing4 = () => {
                         </Link>
                       </h4>
                       <div className="text">
-                        60 Minutes Session Package 4500 Tk
+                        60 Minutes Session Package 5500 Tk
                       </div>
                       <div className="text">
-                        90 Minutes Session Package 6500 Tk
+                        90 Minutes Session Package 8500 Tk
                       </div>
                       <div className="text">
-                        120 Minutes Session Package 8000 Tk
+                        120 Minutes Session Package 10500 Tk
                       </div>
                     </div>
-                    <span className="price">4500Tk</span>
+                    <span className="price">5500Tk</span>
                   </div>
                 </div>
               </div>
@@ -217,16 +217,16 @@ const Pricing4 = () => {
                         <Link href="page-pricing">Full Body Massage​​</Link>
                       </h4>
                       <div className="text">
-                        60 Minutes Session Package 4500 Tk
+                        60 Minutes Session Package 7000 Tk
                       </div>
                       <div className="text">
-                        90 Minutes Session Package 6500 Tk
+                        90 Minutes Session Package 9999 Tk
                       </div>
                       <div className="text">
-                        120 Minutes Session Package 8000 Tk
+                        120 Minutes Session Package 11500 Tk
                       </div>
                     </div>
-                    <span className="price">4500Tk</span>
+                    <span className="price">7000 Tk</span>
                   </div>
                 </div>
               </div>

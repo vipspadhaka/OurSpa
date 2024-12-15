@@ -7,7 +7,7 @@ import Contact1 from "@/components/sections/Contact1";
 import Gallery1 from "@/components/sections/Gallery1";
 import Instagram1 from "@/components/sections/Instagram1";
 import Marquee1 from "@/components/sections/Marquee1";
-import Pricing1 from "@/components/sections/Pricing1";
+import Pricing1 from "@/components/sections/Pricing4";
 import Services1 from "@/components/sections/Services1";
 import Team2 from "@/components/sections/Team2";
 import Testimonial1 from "@/components/sections/Testimonial1";
