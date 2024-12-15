@@ -6615,7 +6615,11 @@ Section Title
   position: relative;
   padding-left: 12px;
 }
-
+@media (max-width: 767.98px) {
+  .pricing-block-two .inner-box .content-box .price {
+    font-size: 30px;
+  }
+}
 /*** 
 ====================================================================
   Pricing Section Three
