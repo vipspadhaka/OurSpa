@@ -8423,6 +8423,11 @@ Section Title
     font-size: 24px;
   }
 }
+@media (max-width: 768px) {
+  .about-section-four .content-column .inner-column .list-box .inner .title {
+    font-size: 20px;
+  }
+}
 .about-section-four
   .content-column
   .inner-column
