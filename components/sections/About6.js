@@ -48,32 +48,35 @@ const About6 = () => {
                       your physical and mental well-being.
                     </div>
                   </div>
-                  <div className="row ">
-                    <div className="list-box col-sm-4">
+                  <div className="row">
+                    <div className="list-box col-12 col-sm-4">
                       <div className="inner">
                         <figure className="thumb">
                           <img src="images/resource/about2-4.png" alt="Image" />
                         </figure>
-                        <h4 className="title">Manicure</h4>
+                        <h4 className="title">Premium</h4>
                       </div>
                     </div>
-                    <div className="list-box col-sm-4">
+
+                    <div className="list-box col-12 col-sm-4">
                       <div className="inner">
                         <figure className="thumb">
                           <img src="images/resource/about2-5.png" alt="Image" />
                         </figure>
-                        <h4 className="title">Make-up</h4>
+                        <h4 className="title">Luxury</h4>
                       </div>
                     </div>
-                    <div className="list-box col-sm-4">
+
+                    <div className="list-box col-12 col-sm-4">
                       <div className="inner">
                         <figure className="thumb">
                           <img src="images/resource/about2-6.png" alt="Image" />
                         </figure>
-                        <h4 className="title">Body Message</h4>
+                        <h4 className="title">Satisfaction</h4>
                       </div>
                     </div>
                   </div>
+
                   <div className="author-box">
                     <div className="inner">
                       <Link
