@@ -152,7 +152,7 @@ export default function Header2({
               {/*Logo*/}
               <div className="logo">
                 <Link href="/">
-                  <img src="/images/logo.png" alt="" />
+                  <img src="images/logo.png" alt="Logo" />
                 </Link>
               </div>
               {/*Right Col*/}
