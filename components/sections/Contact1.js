@@ -83,8 +83,8 @@ const Contact1 = () => {
                       <span className="sub-title">Appointment</span>
                       <h3 className="words-slide-up text-split">Book Now</h3>
                       <div className="text">
-                        Proin efficitur, mauris vel condimentum pulvinar, velit{" "}
-                        <br /> orci consectetur ligula.
+                        Book your appointment now and immerse yourself in
+                        ultimate relaxation at Vip Spa Dhaka.
                       </div>
                     </div>
                     <form
