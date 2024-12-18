@@ -7,7 +7,7 @@ const Contact1 = () => {
     form_email: "",
     form_subject: "",
     date: "",
-    number: "",
+    form_number: "",
     form_textarea: "",
   });
 
@@ -31,20 +31,20 @@ const Contact1 = () => {
       )
       .then(
         (result) => {
-          console.log("Email sent successfully!", result.text);
-          alert("Your booking has been sent!");
+          // console.log("Email sent successfully!", result.text);
+          alert("Your appointment has been successfully scheduled");
           // Clear the form inputs
           setFormData({
             form_name: "",
             form_email: "",
             form_subject: "",
             date: "",
-            number: "",
+            form_number: "",
             form_textarea: "",
           });
         },
         (error) => {
-          console.error("Failed to send email:", error.text);
+          // console.error("Failed to send email:", error.text);
           alert("There was an error sending your booking.");
         }
       );
@@ -138,10 +138,10 @@ const Contact1 = () => {
                         <div className="form-group col-lg-12 col-md-12">
                           <input
                             type="tel"
-                            name="number"
+                            name="form_number"
                             placeholder="Number *"
                             required
-                            value={formData.number}
+                            value={formData.form_number}
                             onChange={handleChange}
                           />
                         </div>
