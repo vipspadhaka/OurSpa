@@ -33,7 +33,7 @@ const CustomForm = ({ status, message, onValidated }) => {
     return (
       <div
         dangerouslySetInnerHTML={{ __html: message }}
-        style={{ color: "green" }}
+        style={{ color: "#c1a64d" }}
       />
     );
   }
