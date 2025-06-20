@@ -46,7 +46,7 @@ const Banner3 = () => {
                   </figure>
                   <div className="title-stroke-text fadeInUpBig">Purerelax</div>
                   <span className="sub-title animate-2">
-                    Experience Top Expert Services
+                    Experience Top Expert Services DDDDDD
                   </span>
                   <h1 className="title animate-3">
                     Luxury Spa <br />
