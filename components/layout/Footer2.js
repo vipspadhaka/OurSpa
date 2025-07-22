@@ -171,7 +171,7 @@ export default function Footer2() {
                 <div className="footer-widget contacts-widget">
                   <h3 className="widget-title">Contact</h3>
                   <div className="text">
-                    Gulshan 2 Circle, Near The Westin Dhaka.
+                   Banani, Block A, Road 27, house 37
                   </div>
                   <ul className="contact-info">
                     <li>
@@ -203,7 +203,7 @@ export default function Footer2() {
             <div className="inner-container">
               <div className="copyright-text">
                 &copy; 2024 Vip Spa Dhaka. All Rights Reserved.
-                <Link href="https://softstok.com/"> Developed by SoftStok</Link>
+                <Link href="https://inovexer.com/"> Developed by Inovexer</Link>
               </div>
             </div>
           </div>
